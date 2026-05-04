@@ -84,7 +84,15 @@ nav a:hover{
 .intro{
     font-size: 40px;
 }
-
+.tut{
+    display: flex;
+    background-color:rgb(109, 109, 109) ;
+    margin: 50px;
+    border-radius: 50px;
+}
+.pic2{
+    width: 250px;
+}
 .footer{
     text-align: center;
     color: white;
