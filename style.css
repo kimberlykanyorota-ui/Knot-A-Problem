@@ -22,6 +22,7 @@ header{
     color: rgb(0, 0, 0);
     text-decoration-style: wavy;
     text-shadow: 2px;
+    position: sticky;
 }
 .name{
     font-size: 80px;
@@ -132,12 +133,12 @@ p{
     align-items: center;
     margin-top: 50px;
 }
-.pic5{
+.pic{
     width: 400px;
     margin: 50px, 50px;
     padding: 50px;
 }
-.pic6{
+/* .pic6{
     width: 400px;
     margin: 50px, 50px;
     padding: 50px;
@@ -176,7 +177,7 @@ p{
     width: 400px;
     margin: 50px, 50px;
     padding: 50px;
-}
+} */
 .link:hover{
     color: black;
 }
