@@ -149,6 +149,7 @@ p{
     text-align: center;
     box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
+    font-size: 32px;
 }
 
 .card:hover {
@@ -172,7 +173,7 @@ p{
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 32px;
     
 }
 
@@ -203,7 +204,7 @@ p{
     transform: scale(1.05); /* slight zoom on hover */
 }
 .pic{
-    width: 400px;
+    width: 200px;
     margin: 50px, 50px;
     padding: 50px;
 }
