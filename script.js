@@ -76,8 +76,5 @@ button.addEventListener("click", (event) => {
   headerParagraph.textContent = message;
 });
 
-document.querySelector("#form").addEventListener('submit', function(e) {
-e.preventDefault();
-const toast = document.getElementById('toast');
 
 
