@@ -181,7 +181,7 @@ p{
     color: black;
 }
 form{
-    max-width: 650px;
+    max-width: 600px;
     margin: 24px auto;
 }
 form label{
@@ -199,11 +199,11 @@ form input, form textarea, form button{
 
 }
 form input:focus, form textarea:focus{
-    border-color: #007bff;
+    border-color: #000000;
     outline: none;
 }
 form button{
-    background-color: #007bff;
+    background-color: #737577;
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -211,11 +211,9 @@ form button{
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-form button:hover{
-    background-color: #0056b3;
-}
+
 form button:active{
-    background-color: #004085;
+    background-color: #585858;
 }    
 
 .footer{
