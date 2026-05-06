@@ -72,18 +72,10 @@ button.addEventListener("click", (event) => {
 
   message = document.querySelector("#message").value;
 
-  h1.textContent = fullName;
-  headerParagraph.textContent = message;
 });
 
-document.querySelector(".modal-overlay").addEventListener("submit", function (e) {
-  e.preventDefault();
 
-  document.querySelector(".modal-overlay").classList.add("show");
-  this.reset();
-});
 
-document.getElementById("closeBtn").addEventListener("click", function () {
-  document.querySelector("modal-overlay").classList.remove("show");
-});
+
+
 

@@ -87,52 +87,7 @@ p{
     font-size: 40px;
     text-align: center;
 }
-/* .tut{
-    display: flex;
-    background-color:rgb(109, 109, 109) ;
-    margin: 50px;
-    border-radius: 50px;
-}
-.pic2{
-    width: 200px;
-    border-radius: 50%;
-    margin: 30px;
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-.pic2:hover{
-    box-shadow: 0px 0px 15px rgb(0, 0, 0);
-    transform: scale(1.05);
-}
-.pic3{
-    width: 200px;
-    border-radius: 50%;
-    margin: 30px;transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-.pic3:hover{
-    box-shadow: 0px 0px 15px rgb(0, 0, 0);
-    transform: scale(1.05);
-}
-.pic4{
-    width: 200px;
-    border-radius: 50%;
-    margin: 30px;
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-.pic4:hover{
-    box-shadow: 0px 0px 15px rgb(0, 0, 0);
-    transform: scale(1.05);
-}
-.link {
-    color: white;
-    text-decoration: none;
-    font-size: 60px;
-    text-align: center;
-    margin-right: 100px;
-    padding-left: 400px;
-    padding-top: 100px;
-    align-items: center;
-    margin-top: 50px;
-} */
+
  .creators {
     display: flex;
     gap: 30px;
@@ -208,22 +163,7 @@ p{
     margin: 50px, 50px;
     padding: 50px;
 }
-/* .toast {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  background: #333;
-  color: #fff;
-  padding: 14px 22px;
-  border-radius: 8px;
-  opacity: 0;
-  transition: opacity 0.4s ease;
-  pointer-events: none;
-}
 
-.toast.show {
-  opacity: 1;
-} */
  .modal-overlay {
   display: none;
   position: fixed;
@@ -243,46 +183,7 @@ p{
   border-radius: 12px;
   text-align: center;
 }
-/* .pic6{
-    width: 400px;
-    margin: 50px, 50px;
-    padding: 50px;
-}
-.pic7{
-    width: 400px;
-    margin: 50px, 50px;
-    padding: 50px;
-}
-.pic8{
-    width: 400px;
-    margin: 50px, 50px;
-    padding: 50px;
-}
-.pic9{
-    width: 400px;
-    margin: 50px, 50px;
-    padding: 50px;
-}
-.pic10{
-    width: 400px;
-    margin: 50px, 50px;
-    padding: 50px;
-}
-.pic11{
-    width: 400px;
-    margin: 50px, 50px;
-    padding: 50px;
-}
-.pic12{
-    width: 400px;
-    margin: 50px, 50px;
-    padding: 50px;
-}
-.pic13{
-    width: 400px;
-    margin: 50px, 50px;
-    padding: 50px;
-} */
+
 .link:hover{
     color: black;
 }
@@ -321,7 +222,10 @@ form button{
 form button:active{
     background-color: #585858;
 }    
-
+#result{
+    text-align: center;
+    font-size: 32px;
+}
 .footer{
     text-align: center;
     color: white;
