@@ -19,5 +19,29 @@ A text editor (optional, for viewing/editing the code)
 
 Installation
  1 . Clone or download the project
-   
+   git clone  git@github.com:kimberlykanyorota-ui/Knot-A-Problem.git
+   cd Knot-A-Problem
+ 2 . Open the application
+   Simply open the index.html file in your web browser.
+   No additional installation or server setup is required.
+ 3 . Using the application
+   Go to the tutorials page to find some creators who can guide you in tapestry crochet
+   Go to the patterns page to find some simple grid patterns. Click on them to maximize them and you can use them
+
+# Technologies Used
+HTML: Structure and form elements 
+CSS: Styling and responsive design
+JavaScript : For photo display and form filling
+  Event listeners for form submission
+  DOM manipulation for displaying results
+
+# Contact Information
+For questions, feedback, or contributions, please reach out:
+
+Email: kimberlykanyorota@gmail.com
+GitHub: https://github.com/kimberlykanyorota-ui
+
+# License and Copyright
+Copyright © 2026 Kimberly Kanyorota
+This project is open source and free to use.
 
