@@ -65,12 +65,19 @@ let message;
 button.addEventListener("click", (event) => {
   // prevent form from refreshing the page
   event.preventDefault();
+   
+
   // retrieve values from the form
   fullName = document.querySelector("#full-name").value;
 
   email = document.querySelector("#email").value;
 
   message = document.querySelector("#message").value;
+  
+  localStorage.setItem(
+    "formData",
+    JSON.stringify({ fullName, email, message }),
+  );
 
 });
 
